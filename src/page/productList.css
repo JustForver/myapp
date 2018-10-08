@@ -1,0 +1,51 @@
+.prop-body ul li{
+    margin:1% 3%;
+    list-style: none;
+}
+.pro-link-style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pro-rightarea {
+    margin:0 0 0 3%;
+    display: inline-block;
+    width: 62%;
+    float: right;
+}
+.pro-rightarea p {
+    color: #000000;
+    text-align: center;
+    font-size: 1.6rem;
+}
+.pro-rightarea span {
+    display: inline-block;
+    color: #a5a5a5;
+    text-indent:2em;
+    padding: 0;
+}
+
+@media (min-width: 340px) and (max-width: 768px) {
+    .pro-rightarea p{
+        text-align: center;
+        font-size: 100%;
+    }
+    .pro-rightarea span{
+        font-size: 75%;
+    }
+    .pro-link-style img{
+        width: 40%;
+    }
+}
+@media (max-width: 340px){
+    .pro-rightarea p{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .pro-rightarea span{
+        display: none;
+    }
+    .pro-link-style img{
+        width: 40%;
+    }
+}

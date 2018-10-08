@@ -1,0 +1,86 @@
+.contact-header{
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+}
+.contact-header h2 {
+    margin: 0;
+}
+.contact-header span{
+    color: #b4b4b4;
+    display: block;
+}
+.contact-icon {
+    width: 100%;
+    margin: 2% 0;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+    overflow:hidden;
+}
+.contact-icon li {
+    list-style: none;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+.contact-icon li span {
+    display: block;
+    margin: 0 auto;
+    white-space: normal;
+}
+.contact-icon > li:nth-child(1) > span:nth-child(1) {
+    width: 70px;
+    height: 70px;
+    background: url("../images/contact1.png") no-repeat center center / contain;
+}
+.contact-icon > li:nth-child(2) > span:nth-child(1) {
+    width: 70px;
+    height: 70px;
+    background: url("../images/contact2.png") no-repeat center center / contain;
+}
+.contact-icon > li:nth-child(3) > span:nth-child(1) {
+    width: 70px;
+    height: 70px;
+    background: url("../images/contact3.png") no-repeat center center / contain;
+}
+@media (max-width: 768px) {
+    .contact-header h2 {
+        font-size: 1.2rem;
+    }
+    .contact-header span {
+        font-size: 1rem;
+    }
+    .contact-icon li{
+        overflow:hidden;
+        height: 100px;
+    }
+    .contact-icon > li:nth-child(1) > span:nth-child(3){
+        font-size: .5rem;
+    }
+    .contact-icon > li:nth-child(2) > span:nth-child(3){
+        font-size: .5rem;
+    }
+    .contact-icon > li:nth-child(3) > span:nth-child(3){
+        font-size: .5rem;
+    }
+    .contact-icon > li:nth-child(1) > span:nth-child(1) {
+        width: 40px;
+        height: 40px;
+        background: url("../images/contact1.png") no-repeat center center / contain;
+    }
+    .contact-icon > li:nth-child(2) > span:nth-child(1) {
+        width: 40px;
+        height: 40px;
+        background: url("../images/contact2.png") no-repeat center center / contain;
+    }
+    .contact-icon > li:nth-child(3) > span:nth-child(1) {
+        width: 40px;
+        height: 40px;
+        background: url("../images/contact3.png") no-repeat center center / contain;
+    }
+
+}
+@media (max-width: 340px) {
+}
+

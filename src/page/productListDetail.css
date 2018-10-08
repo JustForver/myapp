@@ -1,0 +1,25 @@
+.article-contents h4{
+    text-align: center;
+    padding: 5% 0;
+}
+.article-contents p {
+    padding: 0 35px 100px;
+    display: block;
+    text-indent: 2rem;
+}
+@media (min-width: 340px) and (max-width: 768px){
+    .article-contents h4{
+        font-size: 1.2rem;
+    }
+    .article-contents p{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 340px){
+    .article-contents h4{
+        font-size: 1rem;
+    }
+    .article-contents p{
+        font-size: .8rem;
+    }
+}

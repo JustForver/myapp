@@ -1,0 +1,130 @@
+@media (max-width: 768px) {
+    .header-top,
+    .header-style{
+        display: none;
+    }
+}
+.header{
+    width: 100%;
+    height: 100%;
+}
+.header-top {
+    height: 100%;
+    vertical-align: middle;
+    padding: 12px;
+    overflow: hidden;
+}
+.header-top .width-center {
+    padding-left: 20px;
+}
+.width-center {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header-logo {
+    display: inline-block;
+    float: left;
+}
+.header-title {
+    margin-left: 12px;
+    /*margin-top: 11px;*/
+    float: left;
+}
+.div-inline {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.div-inline strong {
+    font-size: 1.8rem;
+    color: #28905a;
+}
+.div-inline span {
+    display: block;
+    margin: 2px 0 0 2px;
+}
+.div-inline img {
+    margin-left: 15px;
+}
+.header-right {
+    float: right;
+}
+.header-right span {
+    display: block;
+}
+.header-right span:nth-child(2) {
+    font-size: 1.2rem;
+}
+.header-style {
+    background: #28905a;
+}
+.header-style nav {
+    max-width: 80%;
+    margin: auto;
+    position: relative;
+}
+.header-style nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.header-style nav ul li {
+    float: left;
+    padding: 0;
+    text-align: center;
+    min-width: 120px;
+}
+.header-style nav ul li:hover {
+    background: #5cc18c;
+}
+.Link-style{
+    font-size: 20px;
+    color: #ffffff !important;
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.6rem 0;
+}
+
+.secondary-menu{
+    display: none;
+    position: absolute;
+    width: 118px;
+    height: 39px;
+    background: url(../../images/message.png) no-repeat center center / contain;
+    z-index: 999;
+}
+.second-Link-style{
+    position:absolute;
+    margin: 0 -59px;
+    /*background: red;*/
+    width: 100% !important;
+    height: 100% !important;
+}
+.swiper-style{
+    position: relative;
+    width: 100%;
+}
+@media (min-width: 760px) {
+    .backBtn{
+        display: none;
+    }
+}
+.backBtn{
+    position: absolute;
+    z-index: 2;
+    background: cadetblue;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    top: 0;
+    outline: none;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+
+

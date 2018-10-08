@@ -1,0 +1,30 @@
+.map-style{
+    max-width: 768px;
+    margin: 0 auto;
+    height: 378px;
+}
+.map{
+    /*position:absolute;
+    left: 10%;*/
+    width: 100%;
+    height: 378px;
+}
+@media (min-width: 340px) and (max-width: 768px){
+    .map-style{
+        width:100%;
+        height: 226px;
+    }
+    .map{
+        width: 100% !important;
+        height: 226px;
+    }
+}
+@media (max-width: 340px){
+    .map-style{
+        height: 200px;
+    }
+    .map{
+        width: 100% !important;
+        height: 200px;
+    }
+}

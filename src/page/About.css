@@ -1,0 +1,324 @@
+
+.about-title {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.about-title p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.about-title span {
+    /*margin-top: 1px;*/
+    color: #b4b4b4;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .about-title {
+        font-size: .5rem;
+    }
+
+    .about-md .right-area {
+        width: 82% !important;
+        padding: 20px !important;
+        margin-left: 0 !important;
+    }
+
+    .about-md .right-area h4 {
+        display: none
+    }
+
+    .about-md .right-area p {
+    }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 600px) {
+    .about-title p {
+        font-size: 1.5rem !important;
+    }
+}
+
+@media (max-width: 340px) {
+    .about-title {
+        padding: 20px;
+        font-size: .5rem
+    }
+
+    .about-title p {
+        font-size: 1rem;
+    }
+
+    .about-title span {
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+    }
+}
+
+.about-md {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px 12%;
+}
+
+.about-md .left-area {
+    display: inline-block;
+    width: 38%;
+    height: 367px;
+    float: left;
+    background: url("../images/banner3.jpg") no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.about-md .right-area {
+    display: inline-block;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.about-md .right-area h4 {
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+.about-md .right-area p {
+    margin-top: 5px;
+    text-indent: 2rem;
+    color: #a3a3a3;
+}
+
+.about-md .right-area div {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.about-md .right-area div img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .left-area {
+        width: 100% !important;
+        background: url("../images/banner3s.jpg") no-repeat !important;
+        -webkit-background-size: 100% 100% !important;
+        height: 170px !important;
+        margin-bottom: 16px;
+    }
+
+    .right-area div {
+        display: none;
+    }
+}
+
+.about-main-title {
+    text-align: center;
+    padding: 5%;
+}
+
+.about-main-title p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.about-main-title span {
+    margin-top: 3px;
+    color: #b4b4b4;
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .about-main-body div {
+        height: 210px !important;
+    }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 768px) {
+    .about-main-body ul > li:nth-child(2) {
+        margin: 0 5px !important;
+    }
+
+    .about-main-body ul > li:nth-child(1) div:nth-child(1) {
+        height: 170px !important;
+        background: url("../images/team1s.jpg") no-repeat center center / contain !important;
+    }
+
+    .about-main-body ul > li:nth-child(2) div:nth-child(1) {
+        height: 170px !important;
+        background: url("../images/team2s.jpg") no-repeat center center / contain !important;
+    }
+
+    .about-main-body ul > li:nth-child(3) div:nth-child(1) {
+        height: 170px !important;
+        background: url("../images/team3s.jpg") no-repeat center center / contain !important;
+    }
+
+    .about-main-body ul span {
+        display: none !important;
+    }
+
+    .about-main-body > span {
+        display: block !important;
+    }
+}
+.about-main-body ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.about-main-body ul li {
+    width: 25%;
+    list-style: none;
+    display: inline-block;
+}
+
+.about-main-body ul li div {
+    width: 100%;
+}
+
+.about-main-body ul li p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.about-main-body ul li span {
+    display: block;
+    color: #ababab;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    white-space: normal;
+}
+
+.about-main-body ul > li:nth-child(2) {
+    margin: 0 25px;
+}
+
+.about-main-body ul > li:nth-child(1) div:nth-child(1) {
+    height: 262px;
+    background: url("../images/team1.jpg") no-repeat center center / contain;
+}
+
+.about-main-body ul > li:nth-child(2) div:nth-child(1) {
+    height: 262px;
+    background: url("../images/team2.jpg") no-repeat center center / contain;
+}
+
+.about-main-body ul > li:nth-child(3) div:nth-child(1) {
+    height: 262px;
+    background: url("../images/team3.jpg") no-repeat center center / contain;
+}
+
+.about-main-body span {
+    display: none;
+    color: #ababab;
+    font-size: 1.1rem;
+    white-space: normal;
+    width: 70%;
+    margin: 1.2rem auto 0;
+    text-align: center;
+}
+
+.about-main-bs {
+    margin-top: -20px;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.about-main-bs p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.about-main-bs span {
+    margin-top: 3px;
+    color: #b4b4b4;
+    font-size: 1rem;
+}
+
+.about-main-footer {
+    max-width: 100%;
+    margin-bottom: 5rem;
+}
+
+.about-main-footer span {
+    display: block;
+    width: 100%;
+    height: 272px;
+    background: url("../images/smfeature1.png") no-repeat center center / contain;
+}
+
+@media only screen and (max-width: 1024px) {
+    .about-main-footer {
+        margin-top: -6rem;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .about-main-footer {
+        margin: -7rem 0 0 0 !important;
+    }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 600px) {
+    .about-main-footer {
+        height: 22rem;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .about-main-footer {
+        margin-top: -95px !important;
+        height: 18rem;
+    }
+
+    .about-main-body ul > li:nth-child(2) {
+        margin: 0;
+    }
+
+    .about-main-body ul li div {
+        height: 100px !important;
+    }
+
+    .prevbtn {
+        width: 30px !important;
+        height: 30px !important;
+        margin-top: 1.5rem !important;
+        margin-left: 1.5rem !important;
+    }
+}
+
+.feature {
+    width: 100%;
+}
+
+.feature .sm {
+    display: none;
+}
+
+.feature img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .feature .big {
+        display: none;
+    }
+
+    .feature .sm {
+        display: block;
+    }
+}
+
+

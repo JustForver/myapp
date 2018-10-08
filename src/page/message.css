@@ -1,0 +1,194 @@
+.message-form {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.message-form form {
+    width: 75%;
+    margin: 0 auto;
+    /*text-align:center;*/
+}
+@media (max-width: 768px){
+    .message-form form {
+        width: 92%;
+    }
+}
+.message-form form ul {
+    margin: 0;
+    padding: 0;
+}
+
+.message-form li {
+    margin: 1rem auto;
+    list-style: none;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.message-form li span {
+
+}
+
+.message-form li label {
+    font-size: 1.2rem;
+    width: 8.5%;
+    white-space: nowrap;
+}
+
+.message-form li input {
+    width: 80%;
+    height: 40px;
+}
+
+.message-form li textarea {
+    width: 80%;
+}
+
+.message-form li button {
+    margin-left: 14%;
+    width: 30%;
+}
+
+.message-form li i {
+    font-style: normal;
+    color: #ff0909;
+}
+
+.message-form li:nth-child(1) span {
+    margin-left: 14%;
+}
+
+.message-body {
+    padding: 50px 0;
+}
+
+.message-message {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.message-message > div span {
+    display: block;
+}
+
+.message-message label {
+    color: #727272;
+    display: block;
+    margin-top: 35px;
+}
+
+.message-message label span {
+    color: #ff3e43;
+}
+
+.message-message input {
+    margin-left: 2rem;
+    width: 45rem;
+    height: 4rem;
+    background: none;
+    outline: none;
+    border: 1px solid #e3e3e3;
+}
+
+.message-message textarea {
+    margin-left: 2rem;
+    width: 45rem;
+    height: 12rem;
+    background: none;
+    outline: none;
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+}
+
+.message-message button {
+    width: 20%;
+    margin-top: 2rem;
+    margin-left: 60px;
+}
+
+.message-message > label:nth-child(4) {
+    line-height: 12rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .message-message > div {
+        display: none !important;
+    }
+
+    .message-form > form > ul li:last-of-type span {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 340px) and (max-width: 768px) {
+    .message-body {
+        padding: 15px 0 200px !important;
+    }
+
+    .message-message h1 {
+        font-size: 1.2rem;
+    }
+
+    .message-message div span{
+        font-size: 0.8rem;
+    }
+
+    .message-form label {
+        font-size: 1.2rem;
+    }
+
+    .message-form li {
+        margin: 5px auto;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .message-body {
+        padding: 40px 0 250px !important;
+    }
+
+    .message-message h1 {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .message-message > div span {
+        font-size: 0.8rem;
+    }
+
+    .message-form form {
+        width: 100%;
+    }
+
+    .message-form li {
+        margin: 5px auto !important;
+    }
+
+    .message-form li label {
+        font-size: 1rem;
+    }
+}
+
+.am-btn {
+    color: white;
+    font-size: 1.5rem;
+    padding: 5px;
+    font-weight: normal;
+    background: #28905a;
+}
+
+.message-form button:hover {
+    background: #5cc18c;;
+}
